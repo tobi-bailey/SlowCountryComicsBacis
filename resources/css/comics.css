@@ -47,6 +47,16 @@ a{
 .nav-button{
     transition: height .75s;
 }
+
+button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    border: none;
+    outline:none;       
+}
 /* .nav-button:hover{
     height: 5%;
     width: 5%;
