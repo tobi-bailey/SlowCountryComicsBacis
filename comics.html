@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- Slow Country Banner -->
+<head>
+    <meta charset="UTF-8">
+    <title>Slow Country Comics</title>
+    <link rel="stylesheet" type="text/css" href="comics.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img id="slowCountryBanner" src="images/SlowCountryBanner.png" alt="Web comic">
+        </div>
+    </header>
+
+    <!-- PAGE 1 -->
+
+    <div class="container" id="web-comic">
+    <!-- <div class=comic> -->
+        <img class="FunCity" src="comics/21.Wolf.jpg" alt="Web comic">
+    </div>
+
+    <!-- nav buttons -->
+    <div class="navigate">
+        <a href="#!">
+            <img class="first-arrow nav-button" src="images/FirstArrow-Brown.png" onmouseover="this.src='images/FirstArrow-Green.png'" onmouseout="this.src='images/FirstArrow-Brown.png'" alt="last" >
+        </a>
+        <a href="#!">
+            <img  class="prev-arrow nav-button" src="images/PrevArrow-Brown.png" onmouseover="this.src='images/PrevArrow-Green.png'" onmouseout="this.src='images/PrevArrow-Brown.png'" alt="prev" >
+        </a>
+        <a href="#!">
+            <img class="dice-roller nav-button" src="images/DiceIconsBrown.png" onmouseover="this.src='images/DiceIconsColour.png'" onmouseout="this.src='images/DiceIconsBrown.png'" alt="random" >
+        </a>
+        <a href="#!">
+            <img class="next-arrow nav-button" src="images/NextArrow-Brown.png" onmouseover="this.src='images/NextArrow-Green.png'" onmouseout="this.src='images/NextArrow-Brown.png'" alt="next" >
+        </a>
+        <a href="#!">
+            <img class="last-arrow nav-button" src="images/LastArrow-Brown.png" onmouseover="this.src='images/LastArrow-Green.png'" onmouseout="this.src='images/LastArrow-Brown.png'" alt="first" >
+        </a>
+    </div>
+
+    <div class="social-media-links" align="center">
+        <table>
+            <td><a href="https://www.instagram.com/slowcountrycomics/" target="_blank"></a>
+                <img class="socialMedia instagram" src="images/InstagramPRE.png" onmouseover="this.src='images/InstagramPOST.png'" onmouseout="this.src='images/InstagramPRE.png'" alt="instagram" >
+            </td>
+            <td><a href="https://www.facebook.com/slowcountrycomics/" target="_blank"></a>
+                <img class="socialMedia facebook" src="images/FacebookPRE.png" onmouseover="this.src='images/FacebookPOST.png'" onmouseout="this.src='images/FacebookPRE.png'" alt="facebook" >
+            </td>
+            <td><a href="https://www.facebook.com/slowcountrycomics/" target="_blank"></a>
+                <img class="socialMedia reddit" src="images/RedditPre.png" onmouseover="this.src='images/RedditPost.png'" onmouseout="this.src='images/RedditPre.png'" alt="last" >
+            </td>
+        </table>
+    </div>
+
+     <!-- PAGE 2 -->
+
+     <div class="container" id="web-comic">
+        <!-- <div class=comic> -->
+            <img class="FunCity" src="comics/22.DatingDante.jpg" alt="Web comic">
+        </div>
+    
+        <!-- nav buttons -->
+        <div class="navigate">
+            <a href="#!">
+                <img class="first-arrow nav-button" src="images/FirstArrow-Brown.png" onmouseover="this.src='images/FirstArrow-Green.png'" onmouseout="this.src='images/FirstArrow-Brown.png'" alt="last" >
+            </a>
+            <a href="#!">
+                <img  class="prev-arrow nav-button" src="images/PrevArrow-Brown.png" onmouseover="this.src='images/PrevArrow-Green.png'" onmouseout="this.src='images/PrevArrow-Brown.png'" alt="prev" >
+            </a>
+            <a href="#!">
+                <img class="dice-roller nav-button" src="images/DiceIconsBrown.png" onmouseover="this.src='images/DiceIconsColour.png'" onmouseout="this.src='images/DiceIconsBrown.png'" alt="random" >
+            </a>
+            <a href="#!">
+                <img class="next-arrow nav-button" src="images/NextArrow-Brown.png" onmouseover="this.src='images/NextArrow-Green.png'" onmouseout="this.src='images/NextArrow-Brown.png'" alt="next" >
+            </a>
+            <a href="#!">
+                <img class="last-arrow nav-button" src="images/LastArrow-Brown.png" onmouseover="this.src='images/LastArrow-Green.png'" onmouseout="this.src='images/LastArrow-Brown.png'" alt="first" >
+            </a>
+        </div>
+    
+        <div class="social-media-links" align="center">
+            <table>
+                <td><a href="https://www.instagram.com/slowcountrycomics/" target="_blank"></a>
+                    <img class="socialMedia instagram" src="images/InstagramPRE.png" onmouseover="this.src='images/InstagramPOST.png'" onmouseout="this.src='images/InstagramPRE.png'" alt="instagram" >
+                </td>
+                <td><a href="https://www.facebook.com/slowcountrycomics/" target="_blank"></a>
+                    <img class="socialMedia facebook" src="images/FacebookPRE.png" onmouseover="this.src='images/FacebookPOST.png'" onmouseout="this.src='images/FacebookPRE.png'" alt="facebook" >
+                </td>
+                <td><a href="https://www.facebook.com/slowcountrycomics/" target="_blank"></a>
+                    <img class="socialMedia reddit" src="images/RedditPre.png" onmouseover="this.src='images/RedditPost.png'" onmouseout="this.src='images/RedditPre.png'" alt="last" >
+                </td>
+            </table>
+        </div>
+        
+    <script>
+
+        // side navigation bar 
+        const slide_menu = document.querySelectorAll(".sidenav");
+            
+            M.Sidenav.init(slide_menu,{});
+        
+        // dynamic pages
+        
+        $(document).ready(function() {
+          
+        $(".first-arrow").on("click", firstComic);
+        $(".prev-arrow").on("click", prevComic);
+        $(".next-arrow").on("click", nextComic);
+        $(".last-arrow").on("click", newestComic );
+        });
+        function firstComic(){
+            $("#lastArrow").addClass('hidden');
+            $("#prevArrow").addClass('hidden');
+            $("#nextArrow").addClass('hidden');
+            $("#firstArrow").removeClass('hidden');
+        };
+        function prevComic(){
+            $("#firstArrow").addClass('hidden');
+            $("#lastArrow").addClass('hidden');
+            $("#nextArrow").addClass('hidden');
+            $("#prevArrow").removeClass('hidden');
+        };
+        function nextComic(){
+            $("#firstArrow").addClass('hidden');
+            $("#prevArrow").addClass('hidden');
+            $("#lastArrow").addClass('hidden');
+            $("#nextArrow").removeClass('hidden');
+        };
+        function newestComic(){
+            $("#firstArrow").addClass('hidden');
+            $("#prevArrow").addClass('hidden');
+            $("#prev-posts").addClass('hidden');
+            $("#lastArrow").removeClass('hidden');
+        };
+        
+        newestComic()
+</script>       
+
+</body>
+</html>

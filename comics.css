@@ -1,0 +1,61 @@
+/* GENERAL */
+
+body {
+    background-color: white;
+    font-family: 'Amatic SC';
+    text-align: center;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#slowCountryBanner{
+    height: 250px;
+
+}
+
+.socialMedia{
+    height: 40px;
+}
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    height: 30rem;
+    width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-button{
+    height: 4rem;
+    /* width: 5rem; */
+    text-decoration: none;
+    padding: 5px 10px 0px 10px;
+
+}
+
+.nav-button{
+    transition: height .75s;
+}
+/* .nav-button:hover{
+    height: 5%;
+    width: 5%;
+} */
+
+/* PAGE 1 */
+
+.FunCity{
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
