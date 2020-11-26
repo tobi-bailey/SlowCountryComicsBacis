@@ -19,6 +19,7 @@ a{
 
 .socialMedia{
     height: 40px;
+    padding: 10px 5px;
 }
 
 .container{
@@ -51,11 +52,22 @@ a{
     width: 5%;
 } */
 
-/* PAGE 1 */
-
-.FunCity{
+.comicSize{
     height: 550px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* ARCHIVE */
+
+.archiveTable{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.thumbnail{
+    height: 150px;
+    padding: 30px;
 }
