@@ -57,6 +57,19 @@ button {
     border: none;
     outline:none;       
 }
+
+.left-button:active {
+    /* transform: translateY(4px); */
+    transform: rotate(10deg);
+    transition: all 0.5s;
+  }
+
+.middle-button:active {
+/* transform: translateY(4px); */
+transform: rotate(360deg);
+transition: all 0.60s;
+}
+
 /* .nav-button:hover{
     height: 5%;
     width: 5%;

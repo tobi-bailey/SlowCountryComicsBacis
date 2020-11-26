@@ -2,7 +2,7 @@
 
 var clickComic = document.getElementById("randomComic");
 
-window.onclick = choosePic;
+onclick = choosePic;
 
 var myComic = new Array(
     "../images/comics/39.BadGrief.jpg", 
