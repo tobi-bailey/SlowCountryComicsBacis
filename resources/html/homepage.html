@@ -5,23 +5,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Slow Country Comics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/comics.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link rel="shortcut icon" href="https://swebtoon-phinf.pstatic.net/20190413_131/1555107328614tvAEr_JPEG/thumbnail.jpg" />
 </head>
 
 <body>
     <header>
         <div class="header">
-            <img id="slowCountryBanner" src="../images/buttons/SlowCountryBanner.png" alt="Web comic">
+            <img id="slowCountryBanner" src="../images/buttons/SlowCountryBanner.png" alt="Comic Banner">
         </div>
     </header>
 
     <!-- PAGE 1 -->
 
     <div class="container" id="web-comic">
-    <!-- <div class=comic> -->
-        <img class="comicSize" id="randomComic"  src="../images/comics/21.Wolf.jpg" alt="Web comic">
+        <img class="comicSize" id="randomComic"  src="../images/comics/21.Wolf.jpg" alt="Web Comic">
+    </div>
+
+    <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        <!-- Modal Caption (Image Text) -->
+        <!-- <div id="caption"></div> -->
     </div>
 
     <!-- nav buttons -->
@@ -82,18 +91,44 @@
 
     <div class="archive">
 
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
-            <img class="thumbnail" src="../images/comics/39.BadGrief.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/39.Thumb-ThisisHard.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/38.Thumb-Jellyfish.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/37.Thumb-MnM.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/36.Thumb-Grunch.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/35.Thumb-TeamTrees.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/34.Thumb-Furry.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/33.Thumb-CanadaVotes.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/32.Thumb-System32.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/31.Thumb-AlienHouse.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/30.Thumb-SaveofHisLife.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/28.Thumb-DamnKirby.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/27.Thumb-Beeswax.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/26.Thumb-BotBall.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/25.Thumb-ShitJoke.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/23.Thumb-Beautiful.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/22.Thumb-DatingDante.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/21.Thumb-Wolves.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/20.Thumb-SkateandDie.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/19.Thumb-BePositive.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/17.Thumb-Canoodling.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/14.Thumb-Grandma.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/13.Thumb-DontNotJump.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/12.Thumb-Bigfoot.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/11.Thumb-Dogs.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/9.Thumb-Jesus.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/8.Thumb-Fish.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/7.Thumb-Genie.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/6.Thumb-Witchcrap.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/4.Thumb-TooHotToHandle.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/3.Thumb-GreenwithIrony.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/2.Thumb-OatyBears.jpg" alt="Web comic">
+            <!-- <img class="thumbnail" src="../images/thumbnails/21.Thumb-Wolves.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/21.Thumb-Wolves.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/21.Thumb-Wolves.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/21.Thumb-Wolves.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/21.Thumb-Wolves.jpg" alt="Web comic">
+            <img class="thumbnail" src="../images/thumbnails/21.Thumb-Wolves.jpg" alt="Web comic"> -->
+
 
         <!-- <table class="archiveTable">
             <tr>
