@@ -282,6 +282,9 @@ transition: all 0.60s;
     width: 100px;
     padding: 20px;
   }
+  #GreenwithIrony{
+    height: 200px;
+  }
 }
 
 /* Laptop Media Query */
@@ -300,4 +303,9 @@ transition: all 0.60s;
   .dice-roller{
     height: 60px;
   }
+}
+
+/* individual comic styling */
+#GreenwithIrony{
+  height: 450px;
 }
