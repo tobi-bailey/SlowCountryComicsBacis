@@ -60,7 +60,7 @@ a{
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 700px;
+    max-width: 600px;
   }
 
   /* Add Animation - Zoom in the Modal */
@@ -71,7 +71,7 @@ a{
   
   @keyframes zoom {
     from {transform:scale(0)}
-    to {transform:scale(1)}
+    to {transform:scale(.9)}
   }
   
   /* The Close Button */
