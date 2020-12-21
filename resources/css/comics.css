@@ -140,7 +140,7 @@ button {
     transition: all 0.5s;
   }
 
-.middle-button:active {
+.right-middle-button:active {
 /* transform: translateY(4px); */
 transform: rotate(360deg);
 transition: all 0.60s;
@@ -174,7 +174,7 @@ transition: all 0.60s;
     padding-top: 20px;
 } */
 
-.archive{
+#archive{
     margin-left: 120px;
     margin-right: 120px;
     padding-top: 20px;

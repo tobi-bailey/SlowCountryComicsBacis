@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/comics.css">
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-    <link rel="shortcut icon" href="https://swebtoon-phinf.pstatic.net/20190413_131/1555107328614tvAEr_JPEG/thumbnail.jpg" />
+    <link rel="shortcut icon" href="../images/buttons/SCCIcon.jpg"/>
 </head>
 
 <body>
@@ -45,16 +45,21 @@
                 <img  class="prev-arrow nav-button" src="../images/buttons/PrevArrow-Brown.png" onmouseover="this.src='../images/buttons/PrevArrow-Green.png'" onmouseout="this.src='../images/buttons/PrevArrow-Brown.png'" alt="prev" >
             </a>
         </button>
-        <button class="middle-button" onclick="choosePic()">
+        <button class="left-middle-button">
+            <a href="#archive">
+                <img class="archiv-button nav-button" " src="../images/buttons/VaultIcon.png" onmouseover="this.src='../images/buttons/VaultIcon.png'" onmouseout="this.src='../images/buttons/VaultIconBrown.png'" alt="archive" >
+            </a>
+        </button>
+        <button class="right-middle-button" onclick="choosePic()">
             <img class="dice-roller nav-button" " src="../images/buttons/DiceIconsBrown.png" onmouseover="this.src='../images/buttons/DiceIconsColour.png'" onmouseout="this.src='../images/buttons/DiceIconsBrown.png'" alt="random" >
         </button>
         <button class="right-button">
-            <a href="../html/homepage.html">
+            <a href="../html/index.html">
                 <img class="next-arrow nav-button" src="../images/buttons/NextArrow-Brown.png" onmouseover="this.src='../images/buttons/NextArrow-Green.png'" onmouseout="this.src='../images/buttons/NextArrow-Brown.png'" alt="next" >
             </a>
         </button>
         <button class="right-button">
-            <a href="../html/homepage.html">
+            <a href="../html/index.html">
                 <img class="last-arrow nav-button" src="../images/buttons/LastArrow-Brown.png" onmouseover="this.src='../images/buttons/LastArrow-Green.png'" onmouseout="this.src='../images/buttons/LastArrow-Brown.png'" alt="first" >
             </a>
         </button>
@@ -89,7 +94,7 @@
 
     <!-- archive thumbails -->
 
-    <div class="archive">
+    <div id="archive">
         <a href="../html/53.AskYourDoctor.html">
             <img class="thumbnail" loading="lazy" src="../images/thumbnails/53.Thumb-AskYourDoctor.jpg" alt="Ask Your Doctor">
         </a>
