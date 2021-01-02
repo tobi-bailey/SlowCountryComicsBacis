@@ -60,7 +60,7 @@ a{
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 600px;
+    max-width: 650px;
   }
 
   /* Add Animation - Zoom in the Modal */
@@ -117,7 +117,11 @@ a{
 }
 
 .dice-roller{
-    height: 5rem;
+    height: 7rem;
+}
+
+.archiv-button{
+  height: 7rem;
 }
 
 /* .nav-button{
@@ -144,6 +148,10 @@ button {
 /* transform: translateY(4px); */
 transform: rotate(360deg);
 transition: all 0.60s;
+}
+
+.right-middle-button:active {
+  transform: translateY(4px);
 }
 
 .left-button:active {
@@ -196,21 +204,29 @@ transition: all 0.60s;
     height: 300px;
   }
   .nav-button{
-    height: 35px;
+    height: 30px;
     padding: 5px 2px 0px 2px;
   }
   .dice-roller{
-    height: 45px;
+    height: 40px;
+  }
+  .archiv-button{
+    height: 40px;
   }
   .archive{
-    margin: 0px;
     padding-top: 150px;
-}
-  .thumbnail{
-    height: 80px;
-    width: 80px;
-    padding: 5px;
   }
+
+  #archive{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+
+.thumbnail{
+  height: 60px;
+  width: 60px;
+  padding: 3px;
+}
 
 }
 
@@ -224,20 +240,28 @@ transition: all 0.60s;
     height: 370px;
   }
   .nav-button{
-    height: 48px;
-    padding: 5px 2px 0px 2px;
+    height: 38px;
+    padding: 5px 1px 0px 1px;
   }
   .dice-roller{
-    height: 58px;
+    height: 45px;
+  }
+  .archiv-button{
+    height: 45px;
   }
   .archive{
-    margin: 0px;
     padding-top: 150px;
-}
+  } 
+  #archive{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
   .thumbnail{
-    height: 80px;
-    width: 80px;
-    padding: 5px;
+    height: 70px;
+    width: 70px;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
@@ -254,6 +278,9 @@ transition: all 0.60s;
     height: 60px;
   }
   .dice-roller{
+    height: 70px;
+  }
+  .archiv-button{
     height: 70px;
   }
   .thumbnail{
@@ -275,6 +302,9 @@ transition: all 0.60s;
     height: 50px;
   }
   .dice-roller{
+    height: 60px;
+  }
+  .archiv-button{
     height: 60px;
   }
   .thumbnail{
@@ -303,9 +333,12 @@ transition: all 0.60s;
   .dice-roller{
     height: 60px;
   }
+  .archiv-button{
+    height: 60px;
+  }
 }
 
 /* individual comic styling */
 #GreenwithIrony{
-  height: 450px;
+  height: 400px;
 }
